@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+# 这是制作学生课程表
 # Form implementation generated from reading ui file 'execl.ui'
 #
 # Created: Sun Jun 02 21:26:45 2019
@@ -23,6 +23,7 @@ def get_data_by_file():                     #读取文件信息
     data = [[0] * 6 for _ in range(12)]
     print(data)
     with open('D:/GitHub Repository/Python_2019_Assignment/Class_schedule/curriculum.txt', 'r') as f1:
+    # with open('curriculum.txt', 'r') as f1:
         lists = f1.readlines()
     for i in range(1,len(lists)):
         list = lists[i].split()
@@ -66,7 +67,7 @@ def get_lists_by_data(data):    #以一维数组保存数据
             lists.append(list)
     return lists
 
-class Ui_MainWindow(QMainWindow):  #界面类
+class Ui_MainWindow(QMainWindow):  #GUI界面类
 
     def __init__(self):
         super(Ui_MainWindow, self).__init__()
@@ -123,8 +124,6 @@ class Ui_MainWindow(QMainWindow):  #界面类
         self.comboBox_2.setGeometry(QtCore.QRect(290, 20, 81, 22))
         self.comboBox_2.setObjectName("comboBox_2")
         self.comboBox_2.popupAboutToBeShown.connect(self.update_combobox2)
-
-
 
 
         self.pushButton = QtWidgets.QPushButton(self.Tab1)
@@ -199,7 +198,7 @@ class Ui_MainWindow(QMainWindow):  #界面类
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
 
-    def check_by_compre(self): #组合查询   依次筛选出发货逻辑的
+    def check_by_compre(self): #组合查询，依次筛选出符合逻辑的
         self.textEdit_2.clear()
         #获取选项
         choose1 = self.comboBox_3.currentIndex()
@@ -207,7 +206,7 @@ class Ui_MainWindow(QMainWindow):  #界面类
         choose3 = self.lineEdit.text()
 
         lists = get_lists_by_data(self.data)
-        info = "      %20s  %20s %20s %20s" % ("课程名", "星期几", "第几节", "上课时间")
+        info = "      %20s  %20s %20s %20s" % ("课程名", "星期几", "第几节", "上课时间")  # 控制输出格式
         self.textEdit_2.append(info)
 
         #三次筛选   三个参数
@@ -256,7 +255,7 @@ class Ui_MainWindow(QMainWindow):  #界面类
             self.textEdit_2.append(info)
 
 
-    def check_by_class(self):#通过课程名查询
+    def check_by_class(self): #通过课程名查询
         self.textEdit.clear()
         choose = self.lineEdit_1.text()
         if choose=="":
@@ -271,7 +270,7 @@ class Ui_MainWindow(QMainWindow):  #界面类
                     week = "星期%s"%j
                     info = "%20s  %20s %20s %20s" % (str(choose),week, index, get_time_by_index(i))
                     self.textEdit.append(info)
-        print("456")
+        # print("456Success")
 
     def check_by_thin(self):#普通查询   星期  节次 上课时间
         self.textEdit.clear()
@@ -279,29 +278,26 @@ class Ui_MainWindow(QMainWindow):  #界面类
         choose_1 = self.comboBox.currentIndex()
         choose_2 = self.comboBox_2.currentIndex()+1
         if choose_1==0:  #查询星期几的课程
-            info = "     %30s %30s %30s"%("课程名","第几节","上课时间")
+            info = "     %20s %20s %20s"%("课程名","第几节","上课时间")
             self.textEdit.append(info)
             for i in range(1,12):
                 index = "第%s节"%i
-                info = "%30s %30s %30s"%(self.data[i][choose_2],index,get_time_by_index(i))
+                info = "%20s %20s %20s"%(self.data[i][choose_2],index,get_time_by_index(i))
                 self.textEdit.append(info)
 
         elif choose_1==1:#查询第几节的课程
-            info = "     %30s %30s %30s" % ("课程名", "星期", "上课时间")
+            info = "     %20s %20s %20s" % ("课程名", "星期", "上课时间")
             self.textEdit.append(info)
             for i in range(1, 6):
                 index = "星期%s" % i
-                info = "%30s %30s %30s" % (self.data[choose_2][i], index, get_time_by_index(choose_2))
+                info = "%20s %20s %20s" % (self.data[choose_2][i], index, get_time_by_index(choose_2))
                 self.textEdit.append(info)
         else:#查上课时间
             info = "           第%s节课的上课时间是：%s"%(choose_2,get_time_by_index(choose_2))
             self.textEdit.append(info)
 
 
-
-
-
-        print("123")
+        # print("123Success")
 
     def update_combobox2(self):   #根据第一个选择   更新第二个选项
         _translate = QtCore.QCoreApplication.translate
