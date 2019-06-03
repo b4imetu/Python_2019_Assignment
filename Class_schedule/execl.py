@@ -22,7 +22,7 @@ class MyComboBox(QtWidgets.QComboBox):      #新建自己的一个类
 def get_data_by_file():                     #读取文件信息
     data = [[0] * 6 for _ in range(12)]
     print(data)
-    with open('C:/Users/b4ime/Desktop/Class_schedule/curriculum.txt', 'r') as f1:
+    with open('D:/GitHub Repository/Python_2019_Assignment/Class_schedule/curriculum.txt', 'r') as f1:
         lists = f1.readlines()
     for i in range(1,len(lists)):
         list = lists[i].split()
