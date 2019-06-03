@@ -22,11 +22,11 @@ class MyComboBox(QtWidgets.QComboBox):      #新建自己的一个类
 def get_data_by_file():                     #读取文件信息
     data = [[0] * 6 for _ in range(12)]
     print(data)
-    # with open('D:/GitHub Repository/Python_2019_Assignment/Class_schedule/curriculum_Windows1252.txt', mode='r') as f1:
+    # with open('D:/GitHub Repository/Python_2019_Assignment/Prj1_curriculum/curriculum_Windows1252.txt', mode='r') as f1:
     # with open('curriculum.txt', 'r') as f1:
     # with open('curriculum_utf-8.txt', encoding='utf-8', mode='r') as f1:
     # 这里使用了绝对路径！！！！！！！！！！
-    with open('D:/GitHub Repository/Python_2019_Assignment/Class_schedule/curriculum_utf-8.txt', encoding='utf-8', mode='r') as f1:
+    with open('D:/GitHub Repository/Python_2019_Assignment/Prj1_curriculum/curriculum_utf-8.txt', encoding='utf-8', mode='r') as f1:
         lists = f1.readlines()
     for i in range(1,len(lists)):
         list = lists[i].split()
