@@ -1,0 +1,12 @@
+Weekday       Monday   Tuesday   Wednesday   Thursday   Friday
+Class1         XXX       xxx       xxx       xxx       xxx
+Class2         Xxx       xxx       xxx       xxx       xxx
+Class3         Xxx       xxx       xxx       xxx       xxx
+Class4         Xxx       xxx       xxx       xxx       xxx
+Class5         Xxx       xxx       xxx       xxx       xxx
+Class6         Xxx       xxx       xxx       xxx       xxx
+Class7         Xxx       xxx       xxx       xxx       xxx
+Class8         Xxx       xxx       xxx       xxx       xxx
+Class9         Xxx       xxx       xxx       xxx       xxx
+Class10         Xxx       xxx       xxx       xxx       xxx
+Class11         Xxx       xxx       xxx       xxx       xxx
