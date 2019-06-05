@@ -4,7 +4,7 @@
 
 ## *Project 1* 学生课程表
 
-Prj1_curriculum
+[Curriculum](/Prj1_Curriculum)
 
 制作学生👨‍🎓课程表📅
 
@@ -38,6 +38,6 @@ Prj1_curriculum
 
 ## *Project 2* 飞机大战游戏
 
-Wings - Plane Fight
+[Shot Them Up!](/Prj2_Shot_Them_Up)
 
 打飞机✈️小游戏
