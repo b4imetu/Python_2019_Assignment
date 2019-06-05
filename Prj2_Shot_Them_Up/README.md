@@ -34,11 +34,11 @@
 
 ***效果截图***
 
-![效果截图1](../capture/Shot_Them_Up (1).jpg)
+![效果截图1](<https://github.com/b4imetu/Python_2019_Assignment/raw/master/capture/Shot_Them_Up (1).jpg>)
 
-![效果截图2](../capture/Shot_Them_Up (2).jpg)
+![效果截图2](<https://github.com/b4imetu/Python_2019_Assignment/raw/master/capture/Shot_Them_Up (2).jpg>)
 
-![效果截图3](../capture/Shot_Them_Up (3).jpg)
+![效果截图3](<https://github.com/b4imetu/Python_2019_Assignment/raw/master/capture/Shot_Them_Up (3).jpg>)
 
 ## 六、遇到的问题与解决方法
 

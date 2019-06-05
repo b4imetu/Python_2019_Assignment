@@ -8,7 +8,7 @@
 
 ## 二、实验环境
 
-[Python](<https://www.python.org/downloads/release/python-370/>) 3.7.0 + [PyQt5](PyQt5 5.12.2) 5.12.2
+[Python](<https://www.python.org/downloads/release/python-370/>) 3.7.0 + [PyQt5](<https://pypi.org/project/PyQt5/>) 5.12.2
 
 ## 三、实验要求
 
@@ -53,15 +53,15 @@
 
 #### 效果截图
 
-![效果截图1](../capture/Curriculum (1).jpg)
+![效果截图1](<https://github.com/b4imetu/Python_2019_Assignment/raw/master/capture/Curriculum (1).jpg>)
 
-![效果截图2](../capture/Curriculum (2).jpg)
+![效果截图2](<https://github.com/b4imetu/Python_2019_Assignment/raw/master/capture/Curriculum (2).jpg>)
 
-![效果截图3](../capture/Curriculum (3).jpg)
+![效果截图3](<https://github.com/b4imetu/Python_2019_Assignment/raw/master/capture/Curriculum (3).jpg>)
 
-![效果截图4](../capture/Curriculum (4).jpg)
+![效果截图4](<https://github.com/b4imetu/Python_2019_Assignment/raw/master/capture/Curriculum (4).jpg>)
 
-![效果截图5](../capture/Curriculum (5).jpg)
+![效果截图5](<https://github.com/b4imetu/Python_2019_Assignment/raw/master/capture/Curriculum (5).jpg>)
 
 ## 六、遇到的问题与解决方法
 
