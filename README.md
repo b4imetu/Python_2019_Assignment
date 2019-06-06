@@ -2,9 +2,7 @@
 
 北京邮电大学 Python编程与实践 大作业
 
-## *Project 1* 学生课程表
-
-[Curriculum](/Prj1_Curriculum)
+## *Project 1* 学生课程表 [Curriculum🔗](/Prj1_Curriculum)
 
 制作学生👨‍🎓课程表📅
 
@@ -36,12 +34,17 @@
 	也可单独查询上课时间：例如查询第一节时间，应给出上午8:008:50，等等
 ```
 
-## *Project 2* 飞机大战游戏
-
-[Shot Them Up!](/Prj2_Shot_Them_Up)
+## *Project 2* 飞机大战游戏 [Shot Them Up!🔗](/Prj2_Shot_Them_Up)
 
 【自选题目】打飞机✈️小游戏
 
 运用课上所学知识与pygame库实现一个飞机✈️大战类小游戏。
+
+```
+要求有GUI用户界面设计
+能从键盘输入键值时不影响程序进程
+能正确判定各类事件并及时响应
+具备一定趣味与可玩性
+```
 
 方向键控制移动，空格键控制射击。游戏难度很低，爽就完事了。
