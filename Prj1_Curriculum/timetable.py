@@ -1,12 +1,8 @@
 # -*- coding: utf-8 -*-
-# 这是制作学生课程表
-# Form implementation generated from reading ui file 'execl.ui'
-#
-# Created: Sun Jun 02 21:26:45 2019
-#      by: PyQt5 UI code generator 5.3.2
-#
-# WARNING! All changes made in this file will be lost!
+# Project 1 制作学生课程表
 # 环境要求：PyQt5
+# 注：由于一些原因，读取文件时使用了绝对路径，运行前请检查修改
+
 import sys
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtCore import pyqtSignal
@@ -23,7 +19,6 @@ def get_data_by_file():                     #读取文件信息
     data = [[0] * 6 for _ in range(12)]
     print(data)
     # with open('D:/GitHub Repository/Python_2019_Assignment/Prj1_curriculum/curriculum_Windows1252.txt', mode='r') as f1:
-    # with open('curriculum.txt', 'r') as f1:
     # with open('curriculum_utf-8.txt', encoding='utf-8', mode='r') as f1:
     # 这里使用了绝对路径！！！！！！！！！！
     with open('D:/GitHub Repository/Python_2019_Assignment/Prj1_curriculum/curriculum_utf-8.txt', encoding='utf-8', mode='r') as f1:
@@ -358,7 +353,7 @@ class Ui_MainWindow(QMainWindow):  #GUI界面类
         self.comboBox_2.setItemText(3, _translate("MainWindow", "星期四"))
         self.comboBox_2.setItemText(4, _translate("MainWindow", "星期五"))
 
-        MainWindow.setWindowTitle(_translate("MainWindow", "2017-2018第二学年课程表"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "2018-2019学年大一春季学期课程表"))
 
         self.label.setText(_translate("MainWindow", "查询条件："))
         self.comboBox.setItemText(0, _translate("MainWindow", "星期"))
