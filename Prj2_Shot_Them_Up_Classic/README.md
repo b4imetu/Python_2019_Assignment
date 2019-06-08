@@ -34,7 +34,7 @@
 
 ***效果截图***
 
-![效果截图1](<https://github.com/b4imetu/Python_2019_Assignment/raw/master/capture/Shot_Them_Up_Classic  (1).jpg>)
+![效果截图1](<https://github.com/b4imetu/Python_2019_Assignment/raw/master/capture/Shot_Them_Up_Classic (1).jpg>)
 
 ![效果截图2](<https://github.com/b4imetu/Python_2019_Assignment/raw/master/capture/Shot_Them_Up_Classic (2).jpg>)
 
